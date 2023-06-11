@@ -1,0 +1,29 @@
+.flexible__wrapper {
+    background-image: url("../img/flexible__background.png");
+    background-repeat: no-repeat;
+}
+
+.flexible__content {
+    text-align: center;
+    padding: 4.5rem 0 4.2rem;
+}
+
+.flexible__title {
+    @include font ($family: "Verdana", $size: 3.5rem, $height: 4.8rem, $weight: 400);
+    color: #000000;
+    margin: 0 0 4rem;
+}
+
+.flexible__subtitle {
+    @include font ($family: "Source Sans Pro", $size: 2rem, $height: 3.2rem, $weight: 400);
+    margin: 0 0 3rem;
+}
+
+.flexible__button {
+    padding: 11.5999px 23.375px 12.4001px 24px;
+    @include font ($family: "Source Sans Pro", $size: 1.6rem, $height: 2.4rem, $weight: 600);
+    color: #FFFFFF;
+    background: $color-primary;
+    border-radius: 4px;
+}
+

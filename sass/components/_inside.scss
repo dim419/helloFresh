@@ -1,0 +1,38 @@
+.inside__wrapper {
+    padding: 2.2rem 18.5rem 6.1rem 19rem;
+    display: flex;
+    justify-content: space-between;
+    .inside__title {
+        text-align: center;
+    }
+    border-bottom: 1px solid #E4E4E4;
+}
+
+.inside__title {
+    @include font ($family: "Inter", $size: 2.3rem, $height: 2rem, $weight: 400);
+    letter-spacing: -0.3px;
+    margin: 1.4rem 0 0 0;
+}
+
+.inside__list {
+    margin: 0 0 4rem;
+    :nth-child(5) {
+        margin-top: 1rem;
+        span {
+            text-decoration: underline;
+        color: $color-primary;
+        }
+    }
+}
+
+.inside__list-item {
+    @include font ($family: "SegoeUI", $size: 1.6rem, $height: 2.4rem, $weight: 400);
+}
+
+.inside__button {
+    padding: 11.6px 177.938px 12.4px 178.562px;
+    @include font ($family: "Source Sans Pro", $size: 1.6rem, $height: 2.4rem, $weight: 600);
+    background: $color-primary;
+    border-radius: 4px;
+    color: #FFFFFF;
+}

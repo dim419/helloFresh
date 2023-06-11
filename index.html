@@ -5,6 +5,7 @@
 	<title>FIGMA | Макеты для верстки — Верстка страницы</title>
 	<meta name="description" content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки">
     <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="./sass/style.css">
 </head>
 <body>
 
@@ -27,23 +28,300 @@
     <div class="main">
         <header class="header">
             <div class="wrapper header__wrapper">
-                <div class="logo">
-                    <a href="#"><img src="./img/Hello_Fresh_Logo.svg" alt="Header Logo"></a>
+                <div class="header__left-part">
+                    <div class="logo">
+                        <a href="#"><img src="./img/Hello_Fresh_Logo.svg" alt="Header Logo"></a>
+                    </div>
+                    <nav class="header__navigation">
+                        <ul class="navigation">
+                            <li class="navigation__link">Our Plans</li>
+                            <li class="navigation__link">How It Works</li>
+                            <li class="navigation__link">Our Menus<span><img src="./img/header__arrow.svg" alt=""></span></li>
+                            <li class="navigation__link">Gift Cards</li>
+                            <li class="navigation__link">Sustainability<span><img src="./img/header__arrow.svg" alt=""></span></li>
+                            <li class="navigation__link">Thanksgiving Box</li>
+                        </ul>
+                    </nav>
                 </div>
-                <nav class="header__navigation">
-                    <ul class="navigation">
-                        <li class="navigation__link">Our Plans</li>
-                        <li class="navigation__link">How It Works</li>
-                        <li class="navigation__link">Our Menus<span><img src="./img/header__arrow.svg" alt=""></span></li>
-                        <li class="navigation__link">Gift Cards</li>
-                        <li class="navigation__link">Sustainability<span><img src="./img/header__arrow.svg" alt=""></span></li>
-                        <li class="navigation__link">Thanksgiving Box</li>
-                    </ul>
-                </nav>
                 <button class="header__button">Log in</button>
-                
             </div>
         </header>
+        <section class="mealtime">
+            <div class="wrapper mealtime__wrapper">
+                <div class="mealtime__content">
+                    <h1 class="mealtime__title">Take the stress<br>out of mealtime</h1>
+                    <p class="mealtime__subtitle">America's Most Popular Meal Kit</p>
+                    <button class="mealtime__button">View our plans</button>
+                    <div class="mealtime__arrow"><img src="./img/mealtim__arrow.svg" alt=""></div>
+                </div>
+            </div>
+        </section>
+        <section class="why">
+            <div class="wrapper why__wrapper">
+                <h2 class="why__title">Why HelloFresh?</h2>
+                <ul class="why__icons">
+                    <li class="why__icons-item">
+                        <img src="./img/why__skimpin.svg" alt="">
+                        <h3>No skimpin’ on the chicken!</h3>
+                        <p>Or steak, or fish, or plant<br>protein.</p>
+                    </li>
+                    <li class="why__icons-item">
+                        <img src="./img/why__commitment.svg" alt="">
+                        <h3>No commitment whatsoever</h3>
+                        <p>Skipping weeks or cancelling<br>is super easy.</p>
+                    </li>
+                    <li class="why__icons-item">
+                        <img src="./img/why__reviews.svg" alt="">
+                        <h3>The most 5-star reviews</h3>
+                        <p>Our huge recipe selection<br>wows week after week.</p>
+                    </li>
+                    <li class="why__icons-item">
+                        <img src="./img/why__fresh.svg" alt="">
+                        <h3>Fresh and affordable</h3>
+                        <p>Chef-created deliciousness<br>from $7.49 per meal.</p>
+                    </li>
+                </ul>
+                <button class="why__button">Get started</button>
+            </div>
+        </section>
+        <section class="inside">
+            <div class="wrapper inside__wrapper">
+                <img src="./img/iside__image.png" alt="fresh vegetables" class="inside__image">
+                <div class="inside__content">
+                    <h2 class="inside__title">What’s inside each box?</h2>
+                    <ul class="inside__list">
+                        <li class="inside__list-item">✓ Easy-to-follow recipes with clear nutritional<br>info</li>
+                        <li class="inside__list-item">✓ High-quality ingredients sourced straight from the<br>farm</li>
+                        <li class="inside__list-item">✓ Convenient meal kits that fit perfectly in the<br>fridge</li>
+                        <li class="inside__list-item">✓ A fun cooking experience that makes you feel<br>unstoppable</li>
+                        <li class="inside__list-item">✓ <span>Innovative packaging designed to reduce waste</span></li>
+                    </ul>
+                    <button class="inside__button">View our plans</button>
+                </div>
+            </div>
+        </section>
+        <section class="recipes">
+            <div class="wrapper recipes__wrapper">
+                <h2 class="recipes__title">Over 30+ fresh recipes every week</h2>
+                <p class="recipes__subtitle">Easy meals designed by professional chefs and nutritionists</p>
+                <div class="recipes__slider">
+                    <div class="recipes__arrow-left">
+                        <img src="./img/recipes__arrowleft.svg" alt="">
+                    </div>
+                    <div class="recipes__card">
+                        <img src="./img/recipes__meat.png" alt="">
+                    </div>
+                    <div class="recipes__card">
+                        <img src="./img/recipes__veggie.png" alt="">
+                    </div>
+                    <div class="recipes__card">
+                        <img src="./img/recipes__family.png" alt="">
+                    </div>
+                    <div class="recipes__card">
+                        <img src="./img/recipes__fit.png" alt="">
+                    </div>
+                    <div class="recipes__arrow-right">
+                        <img src="./img/recipes__arrowright.svg" alt="">
+                    </div>
+                </div>
+                <button class="recipes__button">View our menus</button>
+            </div>
+        </section>
+        <section class="cook">
+            <div class="wrapper cook_wrapper">
+                <h2 class="cook__title">Cook it. Love it. Tag it #HelloFreshPics</h2>
+                <p class="cook__subtitle">Follow us on Instagram @hellofresh</p>
+                <div class="cook__cards">
+                    <div class="cook__child">
+                        <img src="./img/cook__child.png" alt="">
+                        <h4>bdanielle1285</h4>
+                        <p>My little chef helping me<br>make dinner tonight and<br>trying out some of his new<br>kitchen utensils I got him!</p>
+                    </div>
+                    <div class="cook__dog">
+                        <img src="./img/cook__dog.png" alt="">
+                        <h4>lilpepthekelpie</h4>
+                        <p>I’m helping out 👨‍🍳<br>#masterchef #bestboy</p>
+                    </div>
+                    <div class="cook__family">
+                        <img src="./img/cook__FamilyDinner.png" alt="">
+                        <h4>mandi14eid</h4>
+                        <p>Drew and the kids made mom<br>dinner tonight! Drew and I<br>had our doubts but WOW was<br>it tasty!</p>
+                    </div>
+                    <div class="cook__kids">
+                        <img src="./img/cook__kids.png" alt="">
+                        <h4>our_lovely_stride</h4>
+                        <p>We had a cooking class<br>yesterday and we had such an<br>amazing time. 😁 They had<br>such a great time working as a<br>team and I can’t wait for our<br>weekly cooking class 🙌🏻😁</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="flexible">
+            <div class="wrapper flexible__wrapper">
+                <div class="flexible__content">
+                    <h2 class="flexible__title">Flexible Plans</h2>
+                    <p class="flexible__subtitle">to meet your household's needs</p>
+                    <button class="flexible__button">View our plans</button>
+                </div>
+            </div>
+        </section>
+        <section class="questions">
+            <div class="wrapper questions__wrapper">
+                <h2 class="questions__title">More questions?</h2>
+                <ul class="questions__list">
+                    <li class="questions__list-item">
+                        <img src="./img/questions__arrow.svg" alt="">
+                        <p>How does HelloFresh’s meal kit delivery service work?</p>
+                    </li>
+                    <li class="questions__list-item">
+                        <img src="./img/questions__arrow.svg" alt="">
+                        <p>Which food meal plans & recipes does HelloFresh offer?</p>
+                    </li>
+                    <li class="questions__list-item">
+                        <img src="./img/questions__arrow.svg" alt="">
+                        <p>How many times a week does HelloFresh deliver?</p>
+                    </li>
+                    <li class="questions__list-item">
+                        <img src="./img/questions__arrow.svg" alt="">
+                        <p>Does HelloFresh give nutrition & calorie information?</p>
+                    </li>
+                    <li class="questions__list-item">
+                        <img src="./img/questions__arrow.svg" alt="">
+                        <p>How do I recycle my HelloFresh box?</p>
+                    </li>
+                    <li class="questions__list-item">
+                        <img src="./img/questions__arrow.svg" alt="">
+                        <p>Why should I choose HelloFresh as my meal kit service?</p>
+                    </li>
+                    <li class="questions__list-item">
+                        <img src="./img/questions__arrow.svg" alt="">
+                        <p>How much does HelloFresh cost?</p>
+                    </li>
+                    <li class="questions__list-item">
+                        <img src="./img/questions__arrow.svg" alt="">
+                        <p>Does HelloFresh support a healthy lifestyle?</p>
+                    </li>
+                    <li class="questions__list-item">
+                        <img src="./img/questions__arrow.svg" alt="">
+                        <p>Can I skip a week of delivery?</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="wrapper footer__wrapper">
+                <div class="footer__up">
+                    <ul class="footer__list">
+                        <li class="footer__list-item">
+                            <h4>HelloFresh</h4>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#">Students</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#">Blog</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#">Recipes</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#">Hero Discounts</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#">Recipe Directory</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#">California Supply Chains Act</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#">Delivery Options</a>
+                        </li>
+                    </ul>
+                    <ul class="footer__list">
+                        <li class="footer__list-item">
+                            <h4>Our company</h4>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#">HelloFresh Group</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#">Sustainability</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#">Careers</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#">Press</a>
+                        </li>
+                    </ul>
+                    <ul class="footer__list">
+                        <li class="footer__list-item">
+                            <h4>Work with us</h4>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#">Partner</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#">Influencers</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#">Affiliates</a>
+                        </li>
+                    </ul>
+                    <ul class="footer__list">
+                        <li class="footer__list-item">
+                            <h4>Contact us</h4>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#">Help Center & FAQ</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#">Partnership Inquiries</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#">Corporate Sales</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#">Do Not Sell My Personal<br>Information</a>
+                        </li>
+                    </ul>
+                    <ul class="footer__download">
+                        <li class="footer__download-app">
+                            <a href="#">Download our app</a>
+                        </li>
+                        <li class="footer__download-item">
+                            <p>Manage your deliveries from anywhere, anytime.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__down">
+                    <ul class="footer__copyright">
+                        <li>
+                            <p>© HelloFresh 2022</p>
+                        </li>
+                        <li>
+                            <a href="#">Terms and Conditions</a>
+                        </li>
+                        <li>
+                            <a href="#">Privacy</a>
+                        </li>
+                        <li>
+                            <a href="#">Accessibility</a>
+                        </li>
+                    </ul>
+                    <ul class="footer__icon">
+                        <li> 
+                            <img src="./img/footer__icon-facebook.svg" alt="">
+                        </li>
+                        <li>
+                            <img src="./img/footer__icon-twitter.svg" alt="">
+                        </li>
+                        <li>
+                            <img src="./img/footer__icon-instagram.svg" alt="">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
     </div>
 
 </body>

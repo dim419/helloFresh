@@ -1,0 +1,33 @@
+.questions__wrapper {
+    background: #F8F8F8;
+    .questions__title {
+        text-align: center;
+    }
+}
+
+.questions__title {
+    @include font ($family: "Verdana", $size: 3.7rem, $height: 4.8rem, $weight: 400);
+    margin: 0 0 3.2rem;
+    padding-top: 4.8rem;
+}
+
+.questions__list {
+    margin-left: 28.8rem;
+    :nth-child(9) {
+        margin-bottom: 0;
+        padding-bottom: 3rem;
+    }
+}
+
+.questions__list-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.6rem;
+    @include font ($family: "Source Sans Pro", $size: 1.6rem, $height: 2.4rem, $weight: 600);
+    :nth-child(2) {
+        margin-left: 1.4rem;
+    }
+    img {
+        cursor: pointer;
+    }
+}

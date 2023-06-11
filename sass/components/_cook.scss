@@ -1,0 +1,29 @@
+.cook_wrapper {
+    padding: 3.7rem 18.96rem 5.6rem 18.96rem;
+    text-align: center;
+}
+
+.cook__title {
+    @include font ($family: "Inter", $size: 3.1rem, $height: 3.8rem, $weight: 400);
+    letter-spacing: -0.3px;
+    margin: 0 0 3.06rem;
+}
+
+.cook__subtitle {
+    @include font ($family: "Source Sans Pro", $size: 1.6rem, $height: 2.0rem, $weight: 400);
+    margin: 0 0 6rem;
+}
+
+.cook__cards {
+    display: flex;
+    justify-content: space-between;
+    h4 {
+        @include font ($family: "Inter", $size: 1.6rem, $height: 3.2rem, $weight: 700);
+        margin: 2rem 0 0.5rem;
+    }
+    p {
+        @include font ($family: "Source Sans Pro", $size: 1.6rem, $height: 2.4rem, $weight: 400);
+        margin: 0;
+    }
+}
+

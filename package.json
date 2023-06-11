@@ -1,0 +1,20 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "description": "1. Создайте свой репозиторий для верстки данного макета\r 2. Склонируйте текущий репозиторий\r 3. Удалите файл README.md и переименуйте файл README.tmp в README.md\r 4. Выполните Commit всех своих изменений и сделайте Push в свой репозиторий\r 5. Включите **GitHub Pages**\r 6. Отправьте ссылку боту на **GitHub репозиторий**\r 7. Готово",
+  "main": "index.js",
+  "scripts": {
+    "style": "sass --watch sass/style.scss sass/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dim419/helloFresh.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dim419/helloFresh/issues"
+  },
+  "homepage": "https://github.com/dim419/helloFresh#readme"
+}

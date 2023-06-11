@@ -1,0 +1,50 @@
+.recipes__wrapper {
+    padding: 3rem 20rem 4.1rem 18.2rem;
+    text-align: center;
+    border-bottom: 1px solid #E4E4E4;
+}
+
+.recipes__title {
+    @include font ($family: "Inter", $size: 3.1rem, $height: 3.8rem, $weight: 400);
+    letter-spacing: -0.3px;
+    margin: 0 0 0.56rem 1.8rem;
+}
+
+.recipes__subtitle {
+    @include font ($family: "Source Sans Pro", $size: 1.6rem, $height: 2.0rem, $weight: 400);
+    margin: 0 0 2.2rem;
+}
+
+.recipes__slider {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4.4rem;
+}
+
+.recipes__arrow-left {
+    display: flex;
+    align-items: center;
+    margin-right: 2rem;
+    img {
+        cursor: pointer;
+    }
+}
+
+.recipes__arrow-right {
+    display: flex;
+    align-items: center;
+    margin-left: 2.5rem;
+    img {
+        cursor: pointer;
+    }
+}
+
+.recipes__button {
+    padding: 11.5999px 24.25px 12.4001px 23px;
+    margin-left: 1.8rem;
+    @include font ($family: "Source Sans Pro", $size: 1.6rem, $height: 2.4rem, $weight: 600);
+    color: $color-primary;
+    background: rgba(255, 255, 255, 0.002);
+    box-shadow: inset 0px 0px 0px 1px #067A46;
+    border-radius: 4px;
+}

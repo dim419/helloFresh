@@ -1,0 +1,53 @@
+@font-face {
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Source Sans Pro"),
+        url("../../fonts/source-sans-pro-400.woff2") format("woff2"),
+        url("../../fonts/source-sans-pro-400.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 600;
+    src: local("Source Sans Pro"),
+        url("../../fonts/source-sans-pro-600.woff2") format("woff2"),
+        url("../../fonts/source-sans-pro-600.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Verdana";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Verdana"),
+        url("../../fonts/Verdana400.woff2") format("woff2"),
+        url("../../fonts/Verdana400.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Inter"),
+        url("../../fonts/inter-400.woff2") format("woff2"),
+        url("../../fonts/inter-400.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    src: local("Inter"),
+        url("../../fonts/inter-700.woff2") format("woff2"),
+        url("../../fonts/inter-700.woff") format("woff");
+}
+
+@font-face {
+    font-family: "SegoeUI";
+    font-style: normal;
+    font-weight: 400;
+    src: local("SegoeUI"),
+        url("../../fonts/SegoeUI400.woff2") format("woff2"),
+        url("../../fonts/SegoeUI400.woff") format("woff");
+}

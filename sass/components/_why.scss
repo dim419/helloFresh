@@ -1,0 +1,43 @@
+.why__wrapper {
+    background: #F8F8F8;
+    text-align: center;
+}
+
+.why__title {
+    @include font ($family: "Inter", $size: 3rem, $height: 3.8rem, $weight: 400);
+    color: #242424;
+    text-align: center;
+    margin: 0;
+    padding: 5.3rem 0 6.06rem;
+}
+
+.why__icons {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 23.5rem 0 22.5rem;
+}
+
+.why__icons-item {
+    text-align: center;
+    img {
+        margin-bottom: 2rem;
+    }
+    h3 {
+        @include font ($family: "Source Sans Pro", $size: 1.6rem, $height: 3.2rem, $weight: 600);
+        margin: 0 0 0.6rem;
+    }
+    p {
+        @include font ($family: "Source Sans Pro", $size: 1.6rem, $height: 2.4rem, $weight: 400);
+        margin: 0 0 2.4rem;
+    }
+}
+
+.why__button {
+    padding: 11.6px 23.875px 12.4px 24px;
+    @include font ($family: "Source Sans Pro", $size: 1.6rem, $height: 2.4rem, $weight: 600);
+    color: #067A46;
+    background: rgba(255, 255, 255, 0.002);
+    box-shadow: inset 0px 0px 0px 1px #067A46;
+    border-radius: 4px;
+    margin-bottom: 4.1rem;
+}

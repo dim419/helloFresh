@@ -1,0 +1,67 @@
+.header__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.3rem 1.6rem 1.7rem 1.6rem;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+.header__left-part {
+    display: flex;
+    align-items: center;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    @include font ($family: "Source Sans Pro", $size: 1.6rem, $height: 2.4rem, $weight: 600);
+    color: #242424;
+    cursor: pointer;
+    margin: 0;
+
+}
+
+.navigation__link {
+    img {
+        display: flex;
+        align-self: center;
+    }
+}
+
+.logo {
+    margin-right: 3.34rem;
+}
+
+.navigation {
+    color: #242424;
+    
+
+    :nth-child(2) {
+        margin-left: 2.5rem;
+    }
+    :nth-child(3) {
+        display: flex;
+        align-items: center;
+        margin-left: 1.8rem;
+    }
+    :nth-child(4) {
+        margin-left: 1rem;
+    }
+    :nth-child(5) {
+        display: flex;
+        align-items: center;
+        margin-left: 1.5rem;
+    }
+    :nth-child(6) {
+        margin-left: 1.5rem;
+    }
+}
+
+.header__button {
+    padding: 0.76rem 2.87rem 0.84rem 2.94rem;
+    @include font ($family: "Source Sans Pro", $size: 1.6rem, $height: 2.4rem, $weight: 600);
+    color: $color-primary;
+    background: rgba(255, 255, 255, 0.002);
+    box-shadow: inset 0px 0px 0px 1px #067A46;
+    border-radius: 4px;
+}

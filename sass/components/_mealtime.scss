@@ -1,0 +1,35 @@
+.mealtime__wrapper {
+    background-image: url("../img/mealtime__background.png");
+    background-repeat: no-repeat;
+}
+
+.mealtime__content {
+    text-align: center;
+}
+
+.mealtime__title {
+    @include font ($family: "Verdana", $size: 3.7rem, $height: 7rem, $weight: 400);
+    margin: 0;
+    padding: 17.5rem 0 3.98rem;
+}
+
+.mealtime__subtitle {
+    @include font ($family: "Source Sans Pro", $size: 2.0rem, $height: 1.2rem, $weight: 400);
+    margin: 0 0 4rem;
+}
+
+.mealtime__button {
+    padding: 11.6px 23.375px 12.4px 24px;
+    margin-bottom: 8.1rem;
+    @include font ($family: "Source Sans Pro", $size: 1.6rem, $height: 2.4rem, $weight: 600);
+    color: #FFFFFF;
+    background: #067A46;
+    border-radius: 4px;
+}
+
+.mealtime__arrow {
+    padding-bottom: 3.3rem;
+    img {
+        cursor: pointer;
+    }
+}

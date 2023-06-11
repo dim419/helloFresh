@@ -1,0 +1,80 @@
+.footer__up {
+    padding: 4rem 18.4rem 4.8rem 18.4rem;
+    display: flex;
+    justify-content: space-between;
+    :nth-child(2) {
+        margin-right: 3rem;
+    }
+    :nth-child(3) {
+        margin-right: 5rem;
+    }
+    border-bottom: 1px solid #E4E4E4;
+}
+
+.footer__list {
+    margin: 0;
+}
+
+.footer__list-item {
+    h4 {
+        @include font ($family: "Source Sans Pro", $size: 1.6rem, $height: 2.4rem, $weight: 600);
+        margin: 0 0 1.2rem;
+    }
+    a {
+        text-decoration: none;
+        @include font ($family: "Source Sans Pro", $size: 1.4rem, $height: 2.0rem, $weight: 400);
+        color: $color-primary;
+    }
+    margin-bottom: 0.56rem;
+}
+
+.footer__download {
+    margin: 0;
+}
+
+.footer__download-app {
+    a {
+        @include font ($family: "Source Sans Pro", $size: 1.6rem, $height: 1.8rem, $weight: 600);
+        color: $color-primary;
+        text-decoration: none;
+    }
+    margin-bottom: 1.9rem;
+}
+
+.footer__download-item {
+    p {
+        @include font ($family: "Source Sans Pro", $size: 1.6rem, $height: 1.8rem, $weight: 400);
+        margin: 0;
+    }
+}
+
+.footer__down {
+    padding: 1.3rem 27.51rem 1.4rem 18.55rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__copyright {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    p {
+        margin-right: 6.44rem;
+        @include font ($family: "Source Sans Pro", $size: 1.4rem, $height: 2.0rem, $weight: 400);
+    }
+    a {
+        margin-right: 2.7rem;
+        @include font ($family: "Source Sans Pro", $size: 1.4rem, $height: 2.0rem, $weight: 400);
+        color: $color-primary;
+        text-decoration: none;
+    }
+}
+
+.footer__icon {
+    display: flex;
+    align-items: center;
+    img {
+        margin-left: 2.15rem;
+        cursor: pointer;
+    }
+}
